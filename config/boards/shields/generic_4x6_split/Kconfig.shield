@@ -1,0 +1,5 @@
+config SHIELD_GENERIC_4X6_SPLIT_LEFT
+    def_bool $(shields_list_contains, generic_4x6_split_left)
+
+config SHIELD_GENERIC_4X6_SPLIT_RIGHT
+    def_bool $(shields_list_contains, generic_4x6_split_right)
