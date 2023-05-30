@@ -5,6 +5,9 @@ type: shield
 url: https://example.com
 requires: [seeeduino_xiao]
 exposes: []
+outputs:
+  - usb
+  - ble
 features:
   - keys
 siblings:
