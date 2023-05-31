@@ -1,5 +1,8 @@
 if SHIELD_GENERIC_4X6_SPLIT_LEFT ||  SHIELD_GENERIC_4X6_SPLIT_RIGHT
 
+config BT_DEVICE_NAME
+    default "ushio_split48"
+
 config ZMK_SPLIT
     default y
 
@@ -8,9 +11,6 @@ endif
 if SHIELD_GENERIC_4X6_SPLIT_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ushio_split48"
-
-config BT_DEVICE_NAME
     default "ushio_split48"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
