@@ -3,5 +3,3 @@ include:
     shield: generic_4x6_split_left
   - board: seeeduino_xiao_ble
     shield: generic_4x6_split_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
