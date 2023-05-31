@@ -16,9 +16,6 @@ if SHIELD_GENERIC_4X6_SPLIT_LEFT
 config ZMK_KEYBOARD_NAME
     default "ushio_split48r2"
 
-config BT_DEVICE_NAME
-    default "ushio_split48r2"
-
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
