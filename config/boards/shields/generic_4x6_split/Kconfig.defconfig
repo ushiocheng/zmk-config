@@ -2,8 +2,6 @@ if SHIELD_GENERIC_4X6_SPLIT_LEFT ||  SHIELD_GENERIC_4X6_SPLIT_RIGHT
 
 config ZMK_SPLIT
     default y
-config ZMK_BLE
-    default y
 
 endif
 
