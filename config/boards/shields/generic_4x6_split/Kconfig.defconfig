@@ -6,6 +6,9 @@ config ZMK_BLE
 
 if SHIELD_GENERIC_4X6_SPLIT_LEFT ||  SHIELD_GENERIC_4X6_SPLIT_RIGHT
 
+config ZMK_KEYBOARD_NAME
+    default "ushio_split48"
+    
 config ZMK_SPLIT
     default y
 
