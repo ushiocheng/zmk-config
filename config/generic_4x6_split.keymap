@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-&kp TAB  &kp Q  &kp D  &kp L  &kp W  &none  &none  &kp J  &kp O  &kp Y  &kp P  &kp BACKSPACE  &kp LSHIFT  &kp A  &kp S  &kp E  &kp R  &kp T  &kp COMMA  &kp U  &kp N  &kp I  &kp H  &kp ENTER  &kp ESCAPE  &kp F  &kp Z  &kp X  &kp C  &kp V  &kp PERIOD  &kp G  &kp B  &kp K  &kp M  &kp SEMICOLON  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &mo 4  &mo 2  &kp SPACE  &kp SPACE  &mo 1  &mo 4  &kp RIGHT_CONTROL  &kp RALT  &kp RGUI
+&kp TAB  &kp Q  &kp D  &kp L  &kp W  &none  &none  &kp J  &kp O  &kp Y  &kp P  &kp BACKSPACE  &kp LSHIFT  &kp A  &kp S  &kp E  &kp R  &kp T  &kp COMMA  &kp U  &kp N  &kp I  &kp H  &kp ENTER  &kp ESCAPE  &kp F  &kp Z  &kp X  &kp C  &kp V  &kp PERIOD  &kp G  &kp B  &kp K  &kp M  &kp SEMICOLON  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &mo 4  &mo 2  &mt LC(LA(LGUI)) SPACE  &kp SPACE  &mo 1  &mo 4  &kp RIGHT_CONTROL  &kp RALT  &kp RGUI
             >;
         };
 
@@ -54,9 +54,9 @@
             >;
         };
 
-        HRM_kb_control {
+        macos_nav {
             bindings = <
-&sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &to 12  &to 13  &kp PRINTSCREEN  &kp KP_NUMLOCK  &kp PAUSE_BREAK  &kp INSERT  &kp DELETE  &bt BT_CLR  &to 8  &to 9  &to 10  &to 11  &none  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &bootloader  &none  &none  &none  &none  &none  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &sys_reset  &none  &none  &none  &mo 7  &none  &none  &none  &none  &to 0  &kp SCROLLLOCK  &kp CAPSLOCK  &bootloader
+&none  &kp LC(LS(O))  &kp LC(LS(SEMICOLON))  &kp LC(LS(UP))  &kp LS(LC(SQT))  &kp LC(LS(COMMA))  &none  &none  &none  &kp RA(L)  &kp RA(SEMICOLON)  &kp RA(SQT)  &kp LS(LC(L))  &kp LC(LS(LEFT_BRACKET))  &kp LC(LS(LEFT))  &kp LC(LS(SPACE))  &kp LC(LS(RIGHT))  &kp LC(LS(P))  &none  &kp RA(LEFT)  &kp RA(RIGHT)  &kp RA(COMMA)  &kp RA(PERIOD)  &kp RA(SLASH)  &none  &none  &kp LC(LS(PERIOD))  &kp LC(LS(DOWN))  &kp LC(LS(SLASH))  &kp LC(LS(RIGHT_BRACKET))  &none  &none  &none  &kp RA(P)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
