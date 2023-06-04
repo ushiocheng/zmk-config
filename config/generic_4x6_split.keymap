@@ -9,12 +9,52 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        er-t {
+            bindings = <&kp T>;
+            key-positions = <16 15>;
+            layers = <0>;
+        };
+
+        xc-v {
+            bindings = <&kp V>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        hrm-s {
+            bindings = <&sk LSHIFT>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        hrm-c {
+            bindings = <&sk LCTRL>;
+            key-positions = <1 14>;
+            layers = <0>;
+        };
+
+        hrm-a {
+            bindings = <&sk LALT>;
+            key-positions = <1 15>;
+            layers = <0>;
+        };
+
+        hrm-g {
+            bindings = <&sk LGUI>;
+            key-positions = <1 16>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp TAB  &kp Q  &kp D  &kp L  &kp W  &none  &none  &kp J  &kp O  &kp Y  &kp P  &kp BACKSPACE  &kp LSHIFT  &kp A  &kp S  &kp E  &kp R  &kp T  &kp COMMA  &kp U  &kp N  &kp I  &kp H  &kp ENTER  &kp ESCAPE  &kp F  &kp Z  &kp X  &kp C  &kp V  &kp PERIOD  &kp G  &kp B  &kp K  &kp M  &kp SEMICOLON  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &mo 4  &mo 2  &mt LC(LA(LGUI)) SPACE  &kp SPACE  &mo 1  &mo 4  &kp RIGHT_CONTROL  &kp RALT  &kp RGUI
+&kp TAB  &kp Q  &kp D  &kp L  &kp W  &none  &none  &kp J  &kp O  &kp Y  &kp P  &kp BACKSPACE  &sk LSHIFT  &kp A  &kp S  &kp E  &kp R  &kp T  &kp COMMA  &kp U  &kp N  &kp I  &kp H  &kp ENTER  &kp ESCAPE  &kp F  &kp Z  &kp X  &kp C  &kp V  &kp PERIOD  &kp G  &kp B  &kp K  &kp M  &kp SEMICOLON  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &mo 4  &mo 2  &mt LC(LA(LGUI)) SPACE  &kp SPACE  &mo 1  &mo 4  &kp RIGHT_CONTROL  &kp RALT  &kp RGUI
             >;
         };
 
