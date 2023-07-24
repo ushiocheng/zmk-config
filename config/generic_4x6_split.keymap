@@ -104,25 +104,25 @@
 
         zqt_macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LC(LS(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LC(LS(ENTER))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &kp LC(GRAVE)  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LC(LS(NUMBER_1))  &kp LC(LS(NUMBER_2))  &kp LC(LS(NUMBER_3))  &kp LS(LC(NUMBER_4))  &kp LC(LS(ENTER))  &none  &none  &none  &none  &none  &none  &kp LC(BACKSPACE)  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         layer_16 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &none  &none  &none
             >;
         };
 
         layer_17 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &none  &none  &none
             >;
         };
 
         layer_18 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 0  &none  &none  &none
             >;
         };
     };
