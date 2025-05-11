@@ -1,0 +1,12 @@
+file_format: "1"
+id: artsery_2x4
+name: ushio_artsery_2x4
+type: shield
+url: https://artsey.io
+requires: [seeeduino_xiao]
+exposes: []
+outputs:
+  - usb
+  - ble
+features:
+  - keys

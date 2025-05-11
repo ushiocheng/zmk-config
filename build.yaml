@@ -1,5 +1,3 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: generic_4x6_split_left
-  - board: seeeduino_xiao_ble
-    shield: generic_4x6_split_right
+    shield: artsery_2x4
