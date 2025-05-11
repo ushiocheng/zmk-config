@@ -5,5 +5,5 @@ config ZMK_BLE
     default y
 
 config ZMK_KEYBOARD_NAME
-    default "ushio_artsery_r2"
+    default "artsey_r21"
 
