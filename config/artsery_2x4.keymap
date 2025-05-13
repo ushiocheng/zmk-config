@@ -8,22 +8,353 @@
 
         base_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <3 2 4>;
+            key-positions = <2 3 4>;
             slow-release;
             layers = <0>;
         };
 
-        base_osl_ctr {
-            bindings = <&to 8>;
-            key-positions = <4 0 3 7>;
+        base_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <3 7>;
+            slow-release;
             layers = <0>;
         };
 
+        base_tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2 3 4>;
+            slow-release;
+            layers = <0>;
+        };
+
+        base_sqt {
+            bindings = <&kp SQT>;
+            key-positions = <3 5 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_dot {
+            bindings = <&kp DOT>;
+            key-positions = <3 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <3 5>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_space {
+            bindings = <&kp SPACE>;
+            key-positions = <4 5 6 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+	    base_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <3 4>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <2 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <2 5>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_osm_s {
+            bindings = <&sk LSHIFT>;
+            key-positions = <0 1 2 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_osm_c {
+            bindings = <&sk LCTRL>;
+            key-positions = <0 5>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_osm_a {
+            bindings = <&sk LALT>;
+            key-positions = <0 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_osm_g {
+            bindings = <&kp LGUI>;
+            key-positions = <0 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_N {
+            bindings = <&kp N>;
+            key-positions = <4 5>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_D {
+            bindings = <&kp D>;
+            key-positions = <1 2 3>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_G {
+            bindings = <&kp G>;
+            key-positions = <1 2>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_B {
+            bindings = <&kp B>;
+            key-positions = <4 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_W {
+            bindings = <&kp W>;
+            key-positions = <0 3>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_X {
+            bindings = <&kp X>;
+            key-positions = <0 1 2>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_L {
+            bindings = <&kp L>;
+            key-positions = <5 6 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_C {
+            bindings = <&kp C>;
+            key-positions = <6 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_M {
+            bindings = <&kp M>;
+            key-positions = <4 5 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_K {
+            bindings = <&kp K>;
+            key-positions = <4 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_F {
+            bindings = <&kp F>;
+            key-positions = <2 3>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_Q {
+            bindings = <&kp Q>;
+            key-positions = <0 1 3>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_U {
+            bindings = <&kp U>;
+            key-positions = <5 6>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_H {
+            bindings = <&kp H>;
+            key-positions = <5 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_P {
+            bindings = <&kp P>;
+            key-positions = <4 5 7>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_V {
+            bindings = <&kp V>;
+            key-positions = <0 2>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_Z {
+            bindings = <&kp Z>;
+            key-positions = <0 1 2 3>;
+            slow-release;
+            layers = <0>;
+		};
+
+        base_ltr_J {
+            bindings = <&kp J>;
+            key-positions = <0 1>;
+            slow-release;
+            layers = <0>;
+		};
+
         any_to_base {
             bindings = <&to 0>;
-            key-positions = <1 5 4 0>;
+            key-positions = <0 1 4 5>;
             layers = <0 1 2 3 4 5 6 7 8 9>;
         };
+		
+        base_to_nav {
+            bindings = <&to 1>;
+            key-positions = <2 5 7>;
+            layers = <0>;
+        };
+		
+        base_to_mouse {
+            bindings = <&to 2>;
+            key-positions = <1 3 6>;
+            layers = <0>;
+		};
+		
+        base_to_num {
+            bindings = <&to 3>;
+            key-positions = <1 4 6>;
+            layers = <0>;
+		};
+		
+        base_to_sym1 {
+            bindings = <&to 4>;
+            key-positions = <0 2 5>;
+            layers = <0>;
+		};
+		
+        base_to_sym2 {
+            bindings = <&to 5>;
+            key-positions = <1 4 5 6>;
+            layers = <0>;
+		};
+		
+        base_to_ctr {
+            bindings = <&to 6>;
+            key-positions = <0 3 4 7>;
+            layers = <0>;
+		};
+		
+		num_5 {
+            bindings = <&kp N5>;
+            key-positions = <2 3>;
+            layers = <3>;
+		};
+		
+		num_0 {
+            bindings = <&kp N0>;
+            key-positions = <6 7>;
+            layers = <3>;
+		};
+		
+		num_tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+            layers = <3>;
+		};
+		
+		num_dot {
+            bindings = <&kp DOT>;
+            key-positions = <5 6>;
+            layers = <3>;
+		};
+		
+		num_osm_s {
+            bindings = <&sk LSHIFT>;
+            key-positions = <4 5>;
+            layers = <3>;
+		};
+		
+		num_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <3 7>;
+            layers = <3>;
+		};
+		
+		num_backspace {
+            bindings = <&kp BSPC>;
+            key-positions = <1 2 3>;
+            layers = <3>;
+		};
+		
+		sym1_rslash {
+            bindings = <&kp BSLH>;
+            key-positions = <2 3>;
+            layers = <4>;
+		};
+		
+		sym2_pct {
+            bindings = <&kp PRCNT>;
+            key-positions = <2 3>;
+            layers = <5>;
+		};
+		
+		sym2_rparent {
+            bindings = <&kp RPAR>;
+            key-positions = <6 7>;
+            layers = <5>;
+		};
+		
+		func1_f9 {
+            bindings = <&kp F9>;
+            key-positions = <0 1>;
+            layers = <7>;
+		};
+		
+		func1_f10 {
+            bindings = <&kp F10>;
+            key-positions = <2 3>;
+            layers = <7>;
+		};
+		
+		func1_f11 {
+            bindings = <&kp F11>;
+            key-positions = <4 5>;
+            layers = <7>;
+		};
+		
+		func1_f12 {
+            bindings = <&kp F12>;
+            key-positions = <6 7>;
+            layers = <7>;
+		};
     };
 
     keymap {
@@ -37,49 +368,49 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp HOME  &kp PAGE_UP  &kp UP  &kp PAGE_DOWN  &kp END  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
         layer_mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&msc SCRL_UP  &mkp LCLK  &mmv MOVE_UP  &mkp RCLK  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
         };
 
         layer_num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N6  &kp N7  &kp N8  &kp N9
             >;
         };
 
         layer_sym1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp LEFT_SHIFT  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp MINUS
             >;
         };
 
         layer_sym2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_func1 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_func2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR
             >;
         };
 
         layer_ctr {
             bindings = <
-&to 6  &to 7  &bootloader  &sys_reset  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &to 9
+&to 7  &to 8  &bt BT_SEL 0  &sys_reset  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &to 9
+            >;
+        };
+
+        layer_func1 {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8
+            >;
+        };
+
+        layer_func2 {
+            bindings = <
+&kp C_BRI_INC  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp C_BRI_DEC  &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOL_UP
             >;
         };
 
