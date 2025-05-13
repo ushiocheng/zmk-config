@@ -9,350 +9,371 @@
 
         base_esc {
             bindings = <&kp ESCAPE>;
+            timeout-ms = <100>;
             key-positions = <2 3 4>;
-            slow-release;
             layers = <0>;
         };
 
         base_enter {
             bindings = <&kp ENTER>;
+            timeout-ms = <100>;
             key-positions = <3 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_tab {
             bindings = <&kp TAB>;
+            timeout-ms = <100>;
             key-positions = <1 2 3 4>;
-            slow-release;
             layers = <0>;
         };
 
         base_sqt {
             bindings = <&kp SQT>;
+            timeout-ms = <100>;
             key-positions = <3 5 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_dot {
             bindings = <&kp DOT>;
+            timeout-ms = <100>;
             key-positions = <3 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_comma {
             bindings = <&kp COMMA>;
+            timeout-ms = <100>;
             key-positions = <3 5>;
-            slow-release;
             layers = <0>;
         };
 
         base_space {
             bindings = <&kp SPACE>;
+            timeout-ms = <100>;
             key-positions = <4 5 6 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_slash {
             bindings = <&kp SLASH>;
+            timeout-ms = <100>;
             key-positions = <3 4>;
-            slow-release;
             layers = <0>;
         };
 
         base_backspace {
             bindings = <&kp BACKSPACE>;
+            timeout-ms = <100>;
             key-positions = <2 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_delete {
             bindings = <&kp DELETE>;
+            timeout-ms = <100>;
             key-positions = <2 5>;
-            slow-release;
             layers = <0>;
         };
 
         base_osm_s {
             bindings = <&sk LSHIFT>;
+            timeout-ms = <100>;
             key-positions = <0 1 2 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_osm_c {
             bindings = <&sk LCTRL>;
+            timeout-ms = <100>;
             key-positions = <0 5>;
-            slow-release;
             layers = <0>;
         };
 
         base_osm_a {
             bindings = <&sk LALT>;
+            timeout-ms = <100>;
             key-positions = <0 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_osm_g {
             bindings = <&kp LGUI>;
+            timeout-ms = <100>;
             key-positions = <0 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_N {
             bindings = <&kp N>;
+            timeout-ms = <100>;
             key-positions = <4 5>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_D {
             bindings = <&kp D>;
+            timeout-ms = <100>;
             key-positions = <1 2 3>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_G {
             bindings = <&kp G>;
+            timeout-ms = <100>;
             key-positions = <1 2>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_B {
             bindings = <&kp B>;
+            timeout-ms = <100>;
             key-positions = <4 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_W {
             bindings = <&kp W>;
+            timeout-ms = <100>;
             key-positions = <0 3>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_X {
             bindings = <&kp X>;
+            timeout-ms = <100>;
             key-positions = <0 1 2>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_L {
             bindings = <&kp L>;
+            timeout-ms = <100>;
             key-positions = <5 6 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_C {
             bindings = <&kp C>;
+            timeout-ms = <100>;
             key-positions = <6 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_M {
             bindings = <&kp M>;
+            timeout-ms = <100>;
             key-positions = <4 5 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_K {
             bindings = <&kp K>;
+            timeout-ms = <100>;
             key-positions = <4 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_F {
             bindings = <&kp F>;
+            timeout-ms = <100>;
             key-positions = <2 3>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_Q {
             bindings = <&kp Q>;
+            timeout-ms = <100>;
             key-positions = <0 1 3>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_U {
             bindings = <&kp U>;
+            timeout-ms = <100>;
             key-positions = <5 6>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_H {
             bindings = <&kp H>;
+            timeout-ms = <100>;
             key-positions = <5 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_P {
             bindings = <&kp P>;
+            timeout-ms = <100>;
             key-positions = <4 5 7>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_V {
             bindings = <&kp V>;
+            timeout-ms = <100>;
             key-positions = <0 2>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_Z {
             bindings = <&kp Z>;
+            timeout-ms = <100>;
             key-positions = <0 1 2 3>;
-            slow-release;
             layers = <0>;
         };
 
         base_ltr_J {
             bindings = <&kp J>;
+            timeout-ms = <100>;
             key-positions = <0 1>;
-            slow-release;
             layers = <0>;
         };
 
         any_to_base {
             bindings = <&to 0>;
+            timeout-ms = <100>;
             key-positions = <0 1 4 5>;
             layers = <0 1 2 3 4 5 6 7 8 9>;
         };
 
         base_to_nav {
             bindings = <&to 1>;
+            timeout-ms = <100>;
             key-positions = <2 5 7>;
             layers = <0>;
         };
 
         base_to_mouse {
             bindings = <&to 2>;
+            timeout-ms = <100>;
             key-positions = <1 3 6>;
             layers = <0>;
         };
 
         base_to_num {
             bindings = <&to 3>;
+            timeout-ms = <100>;
             key-positions = <1 4 6>;
             layers = <0>;
         };
 
         base_to_sym1 {
             bindings = <&to 4>;
+            timeout-ms = <100>;
             key-positions = <0 2 5>;
             layers = <0>;
         };
 
         base_to_sym2 {
             bindings = <&to 5>;
+            timeout-ms = <100>;
             key-positions = <1 4 5 6>;
             layers = <0>;
         };
 
         base_to_ctr {
             bindings = <&to 6>;
+            timeout-ms = <100>;
             key-positions = <0 3 4 7>;
             layers = <0>;
         };
 
         num_5 {
             bindings = <&kp N5>;
+            timeout-ms = <100>;
             key-positions = <2 3>;
             layers = <3>;
         };
 
         num_0 {
             bindings = <&kp N0>;
+            timeout-ms = <100>;
             key-positions = <6 7>;
             layers = <3>;
         };
 
         num_tab {
             bindings = <&kp TAB>;
+            timeout-ms = <100>;
             key-positions = <0 1>;
             layers = <3>;
         };
 
         num_dot {
             bindings = <&kp DOT>;
+            timeout-ms = <100>;
             key-positions = <5 6>;
             layers = <3>;
         };
 
         num_osm_s {
             bindings = <&sk LSHIFT>;
+            timeout-ms = <100>;
             key-positions = <4 5>;
             layers = <3>;
         };
 
         num_enter {
             bindings = <&kp ENTER>;
+            timeout-ms = <100>;
             key-positions = <3 7>;
             layers = <3>;
         };
 
         num_backspace {
             bindings = <&kp BSPC>;
+            timeout-ms = <100>;
             key-positions = <1 2 3>;
             layers = <3>;
         };
 
         sym1_rslash {
             bindings = <&kp BSLH>;
+            timeout-ms = <100>;
             key-positions = <2 3>;
             layers = <4>;
         };
 
         sym2_pct {
             bindings = <&kp PRCNT>;
+            timeout-ms = <100>;
             key-positions = <2 3>;
             layers = <5>;
         };
 
         sym2_rparent {
             bindings = <&kp RPAR>;
+            timeout-ms = <100>;
             key-positions = <6 7>;
             layers = <5>;
         };
 
         func1_f9 {
             bindings = <&kp F9>;
+            timeout-ms = <100>;
             key-positions = <0 1>;
             layers = <7>;
         };
 
         func1_f10 {
             bindings = <&kp F10>;
+            timeout-ms = <100>;
             key-positions = <2 3>;
             layers = <7>;
         };
 
         func1_f11 {
             bindings = <&kp F11>;
+            timeout-ms = <100>;
             key-positions = <4 5>;
             layers = <7>;
         };
 
         func1_f12 {
             bindings = <&kp F12>;
+            timeout-ms = <100>;
             key-positions = <6 7>;
             layers = <7>;
         };
